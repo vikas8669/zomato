@@ -1,8 +1,18 @@
+import Feature from "@/components/Feature";
 import HeroSection from "@/components/HeroSection";
-import Image from "next/image";
+import MainSection from "@/components/MainSection";
+
 
 export default function Home() {
   return (
-    <HeroSection />
+    <>
+    <div className=" w-full overflow-x-hidden ">
+      <HeroSection />
+    <MainSection />
+    <Feature />
+    </div>
+    
+    </>
+    
   );
 }

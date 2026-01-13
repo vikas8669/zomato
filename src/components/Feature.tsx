@@ -6,13 +6,11 @@ const Feature = () => {
             <div className='relative pt-20 mt-7 xl:mt-16 xl:pt-28 2xl:pt-36 2xl:mt-24 flex w-full flex-col items-center  overflow-y-hidden bg-[linear-gradient(0deg,#FFFFFF_0%,#FFEDEF_100%)] '>
                 <div className='flex flex-col gap-6 '>
                     <div className='flex size-full flex-col items-center justify-center'>
-                        <div className='text-6xl  w-7/12 text-center  font-bold  text-red-500 lg:w-9/12'>
-                            <span className=''>What’s waiting for you</span>
-                            <br />
-                            <span>on the app?</span>
+                        <div className='text-6xl max-[450px]:text-2xl  w-7/12 text-center  font-bold  text-red-500 lg:w-9/12'>
+                            What’s waiting for you on the app?
                         </div>
-                        <div className='mt-6 w-7/12 text-center font-light md:w-5/12'>
-                            <span className='text-gray-800 text-4xl'>Our app is packed with features that enable you to experience food delivery like never before</span>
+                        <div className=' max-[450px]:text-base mt-6 w-7/12 text-center font-light md:w-5/12'>
+                            Our app is packed with features that enable you to experience food delivery like never before
                         </div>
                     </div>
 
@@ -65,7 +63,7 @@ const Feature = () => {
                     </div>
 
 
-                    <div className='relative col-span-2 col-start-3 row-span-2 flex h-full overflow-hidden'>
+                    <div className='relative  max-[450px]:hidden max-[450px]-block col-span-2 col-start-3 row-span-2 flex h-full overflow-hidden'>
                         <div className='h-full w-full flex flex-col items-center justify-end transition-transform duration-700 ease-out translate-y-0'>
                             <div className='absolute -bottom-5 left-0 h-full w-full'>
                                 <img src="https://b.zmtcdn.com/data/o2_assets/3f7e2757e62fd22592b879bd56b666011742294630.png" alt="" />
@@ -176,10 +174,6 @@ const Feature = () => {
 
                         </div>
                     </div>
-
-
-
-
                     <div className='flex flex-row justify-start gap-10'>
                         <div className='flex  items-center gap-6 rounded-3xl md:max-w-[384px] lg:aspect-auto xl:max-w-[557px]'>
                             <img className='aspect-square h-full max-h-[74px]' src="https://b.zmtcdn.com/data/o2_assets/bc9d2a579285cbdaa101b8fe2ba68f601741779645.png" alt="" />

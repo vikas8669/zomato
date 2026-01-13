@@ -25,8 +25,8 @@ const Feature = () => {
                     <div className='relative col-span-2 col-start-1 row-span-2 grid  h-full grid-cols-2 grid-rows-2 gap-4 xl:gap-6 '>
                         <div className='flex flex-col items-center justify-start pt-2 rounded-2xl xl:rounded-3xl border border-lavenderMist pb-2 shadow-lg 2xl:rounded-[32px] bg-white aspect-[26/29] w-full origin-bottom-right scale-75'>
                             <div className='w-full '>
-                                <img className='mx-auto h-auto w-full ' 
-                                src="https://b.zmtcdn.com/data/o2_assets/d0f1639403f80f8f2c19e0d538222e661742455804.png" alt="" />
+                                <img className='mx-auto h-auto w-full '
+                                    src="https://b.zmtcdn.com/data/o2_assets/d0f1639403f80f8f2c19e0d538222e661742455804.png" alt="" />
                             </div>
                             <div className='px-2 text-center text-sm  xl:text-lg xl:leading-[24px] font-normal md:px-4 justify-self-end'>
                                 Healthy
@@ -54,8 +54,8 @@ const Feature = () => {
 
                         <div className='flex flex-col items-center justify-start pt-2 rounded-2xl xl:rounded-3xl border pb-2 shadow-lg 2xl:rounded-[32px] bg-white aspect-[26/29] w-full origin-top-left scale-75 -translate-y-6 translate-x-6'>
                             <div className='w-full '>
-                                <img className='mx-auto h-auto w-full' 
-                                src="https://b.zmtcdn.com/data/o2_assets/867f86a10503998e437963bb37c451591742455764.png" alt="" />
+                                <img className='mx-auto h-auto w-full'
+                                    src="https://b.zmtcdn.com/data/o2_assets/867f86a10503998e437963bb37c451591742455764.png" alt="" />
                             </div>
                             <div className='px-2 text-center text-sm  xl:text-lg xl:leading-[24px] font-normal text-darkSlateGrey md:px-4 justify-self-end'> Gift Cards
                             </div>
@@ -70,72 +70,73 @@ const Feature = () => {
                             </div>
 
                             <div className='z-50 mb-6 xl:mb-8 aspect-[8/9] w-1/2 scale-90 '>
-                            <div className='flex w-full flex-col items-center justify-start rounded-2xl xl:rounded-3xl border border-lavenderMist pb-2 shadow-lg 2xl:rounded-[32px] bg-white mx-auto aspect-[26/29] pt-4'>
-                            <div className='w-full'>
-                                <img src="https://b.zmtcdn.com/data/o2_assets/cc1caf220c91be38dd94cce12b416fcd1746550226.png" alt="" />
-                            </div>
-                            <div className='px-2 text-center text-sm my-auto xl:text-lg xl:leading-[24px] font-normal text-darkSlateGrey md:px-4 justify-self-end'>
-                                Schedule 
-                                <br/>
-                                your order
-                            </div>
-                            </div>
+                                <div className='flex w-full flex-col items-center justify-start rounded-2xl xl:rounded-3xl border border-lavenderMist pb-2 shadow-lg 2xl:rounded-[32px] bg-white mx-auto aspect-[26/29] pt-4'>
+                                    <div className='w-full'>
+                                        <img src="https://b.zmtcdn.com/data/o2_assets/cc1caf220c91be38dd94cce12b416fcd1746550226.png" alt="" />
+                                    </div>
+                                    <div className='px-2 text-center text-sm my-auto xl:text-lg xl:leading-[24px] font-normal text-darkSlateGrey md:px-4 justify-self-end'>
+                                        Schedule
+                                        <br />
+                                        your order
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
 
 
-                          {/* right side */}
+                    {/* right side */}
                     <div className='relative col-span-2 col-start-5 row-span-2  grid h-full  -translate-x-6 grid-cols-2 grid-rows-2 gap-4 xl:gap-6 '>
                         <div className='flex flex-col items-center justify-start pt-2 rounded-2xl xl:rounded-3xl border border-lavenderMist pb-2 shadow-lg 2xl:rounded-[32px] bg-white aspect-[26/29] w-full origin-bottom-right scale-75 -translate-x-6'>
-                        <div className='w-full'>
-                            <img className='mx-auto h-auto w-full' 
-                            src="https://b.zmtcdn.com/data/o2_assets/6e27c9acde6045c272a28e6eb275727e1742455789.png" alt="" />
+                            <div className='w-full'>
+                                <img className='mx-auto h-auto w-full'
+                                    src="https://b.zmtcdn.com/data/o2_assets/6e27c9acde6045c272a28e6eb275727e1742455789.png" alt="" />
+                            </div>
+                            <div className='px-2 text-center text-sm my-auto xl:text-lg xl:leading-[24px] font-normal text-darkSlateGrey md:px-4 justify-self-end'>
+                                Gourmet
+                            </div>
                         </div>
-                        <div className='px-2 text-center text-sm my-auto xl:text-lg xl:leading-[24px] font-normal text-darkSlateGrey md:px-4 justify-self-end'>
-                            Gourmet
-                        </div>
-                        </div>
-                        
-                        <div className='flex flex-col items-center justify-start pt-2 rounded-2xl xl:rounded-3xl border border-lavenderMist pb-2 shadow-lg 2xl:rounded-[32px] bg-white aspect-[26/29] w-full origin-bottom-left scale-75 -translate-y-6 -translate-x-6'>
-                        <div className='w-full'>
-                            <img className='mx-auto h-auto w-full'
-                             src="https://b.zmtcdn.com/data/o2_assets/813952c961fd13588cb71867d84ea7dc1742455815.png" alt=""/>
 
-                        </div>
-                        <div className='px-2 text-center text-sm my-auto xl:text-lg xl:leading-[24px] font-normal text-darkSlateGrey md:px-4 justify-self-end'>
-                            Offers
-                        </div>
+                        <div className='flex flex-col items-center justify-start pt-2 rounded-2xl xl:rounded-3xl border border-lavenderMist pb-2 shadow-lg 2xl:rounded-[32px] bg-white aspect-[26/29] w-full origin-bottom-left scale-75 -translate-y-6 -translate-x-6'>
+                            <div className='w-full'>
+                                <img className='mx-auto h-auto w-full'
+                                    src="https://b.zmtcdn.com/data/o2_assets/813952c961fd13588cb71867d84ea7dc1742455815.png" alt="" />
+
+                            </div>
+                            <div className='px-2 text-center text-sm my-auto xl:text-lg xl:leading-[24px] font-normal text-darkSlateGrey md:px-4 justify-self-end'>
+                                Offers
+                            </div>
                         </div>
 
 
 
                         <div className='flex flex-col items-center justify-start rounded-2xl xl:rounded-3xl border border-lavenderMist pb-2 shadow-lg 2xl:rounded-[32px] bg-white aspect-[26/29] w-full origin-top-right scale-75 pt-0'>
-                        <div className='w-full'>
-                            <img className='mx-auto h-auto w-full ' 
-                            src="https://b.zmtcdn.com/data/o2_assets/06d090307e02772693ac06123b53459b1742455939.png" alt="" />
-                        </div>
-                        <div className='px-2 text-center text-sm my-auto xl:text-lg xl:leading-[24px] font-normal text-darkSlateGrey md:px-4 justify-self-end'>
-                            Food on
-                            <br />
-                        </div>
+                            <div className='w-full'>
+                                <img className='mx-auto h-auto w-full '
+                                    src="https://b.zmtcdn.com/data/o2_assets/06d090307e02772693ac06123b53459b1742455939.png" alt="" />
+                            </div>
+                            <div className='px-2 text-center text-sm my-auto xl:text-lg xl:leading-[24px] font-normal text-darkSlateGrey md:px-4 justify-self-end'>
+                                Food on
+                                <br />
+                            </div>
                         </div>
 
 
                         <div className='flex flex-col items-center justify-start pt-2 rounded-2xl xl:rounded-3xl border border-lavenderMist pb-2 shadow-lg 2xl:rounded-[32px] bg-white aspect-[26/29] w-full origin-top-left scale-75 -translate-y-6'>
-                        <div className='w-full'>
-                            <img className='mx-auto h-auto w-full' src="https://b.zmtcdn.com/data/o2_assets/5e973dd10c387878009c66d625ae541a1746550690.png" alt=""  />
-                        </div>
+                            <div className='w-full'>
+                                <img className='mx-auto h-auto w-full' src="https://b.zmtcdn.com/data/o2_assets/5e973dd10c387878009c66d625ae541a1746550690.png" alt="" />
+                            </div>
                         </div>
                     </div>
                     <div className='absolute -bottom-14  left-0 h-[112px] w-full bg-[linear-gradient(0deg,_rgba(255,_255,_255,_100)_0%,_rgba(255,_255,_255,_50)_70%,_rgba(255,_255,_255,_0)_100%)]'></div>
-                    </div>
-                    </div>
+                </div>
+            </div>
 
 
             {/* curve section  */}
-            <div className='relative'>
+
+            {/* <div className='relative'>
                 <div className='relative mb-14 flex w-screen flex-col items-center justify-center overflow-hidden bg-black px-10  py-[20vw] text-white xl:px-20 xl:py-72'>
 
                     <img className='absolute left-0 top-20 z-[99]  size-28 lg:size-36 xl:size-44 2xl:size-48 opacity-80 -translate-x-[100px] -translate-y-[100px] ' 
@@ -223,7 +224,80 @@ const Feature = () => {
                 <div className='left-0 absolute -top-1 h-2 w-full rotate-180 bg-white'></div>
                 <div className='left-0 absolute -bottom-1 h-2 w-full rotate-180 bg-white'></div>
                 
-            </div>
+            </div> */}
+            <section className=" flex w-screen justify-center px-4 overflow-hidden">
+                <div
+                    className="
+          relative w-full 
+          bg-black text-white
+          py-20 md:py-28
+          overflow-hidden
+          rounded-none
+          md:rounded-[60px]
+        "
+                >
+                    {/* TOP CURVE (Desktop & Tablet only) */}
+                    <div className="hidden md:block absolute top-0 left-0 w-full h-24 bg-white rounded-b-[100%]" />
+
+                    {/* BOTTOM CURVE (Desktop & Tablet only) */}
+                    <div className="hidden md:block absolute bottom-0 left-0 w-full h-24 bg-white rounded-t-[100%]" />
+
+                    {/* CONTENT */}
+                    <div className="relative z-10 flex flex-col items-center text-center">
+                        <p className="text-lg font-semibold text-white/90">zomato</p>
+
+                        <h1 className="mt-2 text-4xl md:text-5xl font-bold tracking-wide text-[#d4af37]">
+                            GOLD
+                        </h1>
+
+                        <p className="mt-4 text-sm md:text-base text-[#d4af37]/90 max-w-md">
+                            India’s Top Savings <br />
+                            Program for Food Lovers
+                        </p>
+
+                        {/* BENEFITS TITLE */}
+                        <div className="flex items-center gap-3 mt-10">
+                            <span className="text-[#d4af37]">★</span>
+                            <p className="tracking-widest font-semibold">GOLD BENEFITS</p>
+                            <span className="text-[#d4af37]">★</span>
+                        </div>
+
+                        {/* BENEFITS */}
+                        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20">
+                            {/* LEFT */}
+                            <div className="flex items-center gap-4">
+                                <div className="w-14 h-14 rounded-full bg-[#d4af37]/20 flex items-center justify-center">
+                                    🍰
+                                </div>
+                                <div className="text-left">
+                                    <p className="font-semibold">Free Delivery</p>
+                                    <p className="text-sm text-white/70">
+                                        At all restaurants within 7 km
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* RIGHT */}
+                            <div className="flex items-center gap-4">
+                                <div className="w-14 h-14 rounded-full bg-[#d4af37]/20 flex items-center justify-center">
+                                    🛵
+                                </div>
+                                <div className="text-left">
+                                    <p className="font-semibold">Up to 30% extra off</p>
+                                    <p className="text-sm text-white/70">
+                                        At 20,000+ partner restaurants
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* COINS (Decorative) */}
+                    <div className="hidden md:block absolute top-8 right-10 text-4xl">🪙</div>
+                    <div className="hidden md:block absolute bottom-8 left-10 text-3xl">🪙</div>
+                </div>
+            </section>
+
         </>
     )
 }
